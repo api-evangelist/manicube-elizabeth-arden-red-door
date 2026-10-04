@@ -42,14 +42,12 @@ tags:
 - Beauty
 - Personal Care
 - On-Demand
-- Startups
 tags_raw:
 - Company
 - Commerce
 - Beauty
 - Personal Care
 - On-Demand
-- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -61,3 +59,7 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+x-tags-removed:
+- Startups
+x-company-stage: startup
+x-company-stage-evidence: "own tags: Startup"
